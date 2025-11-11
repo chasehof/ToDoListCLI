@@ -1,0 +1,3 @@
+/home/chase/Projects/ToDoListCLI/build/CMakeFiles/ToDoList.dir
+/home/chase/Projects/ToDoListCLI/build/CMakeFiles/edit_cache.dir
+/home/chase/Projects/ToDoListCLI/build/CMakeFiles/rebuild_cache.dir

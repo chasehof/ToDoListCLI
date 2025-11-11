@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/ToDoList.dir/main.cpp.o CMakeFiles/ToDoList.dir/src/InteractionHandler.cpp.o CMakeFiles/ToDoList.dir/src/TaskList.cpp.o -o ToDoList 
