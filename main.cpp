@@ -4,13 +4,17 @@
 #include "include/InteractionHandler.h"
 
 
-int main(){
+int main() {
     auto listhandler = std::make_shared<TaskList>();
     InteractionHandler interactionhandler(listhandler);
 
-    while(1){
+    std::cout << "Welcome to ToDoList CLI!" << std::endl;
+
+    while (true) {
         listhandler->printTasks();
-        interactionhandler.handleInput();
+        if (!interactionhandler.handleInput()) {
+            break;
+        }
     }
 
     return 0;
